@@ -162,10 +162,61 @@ h1 span {
 .title-description-about {
   width: 50%;
   padding: 4px 0;
-  line-height:240%;
+  line-height: 240%;
 }
 
 .description-about {
   width: 50%;
   font-size: 0.8em;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.container-tools-skills {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-tools-skills::before,
+.container-tools-skills::after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.container-tools-skills::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.container-tools-skills::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.container-tools-skills:hover .tools-skills {
+  animation-play-state: paused;
+}
+
+.tools-skills {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.tools-skills img {
+  height: 100px;
+  margin: 0 60px;
 }
