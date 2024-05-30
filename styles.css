@@ -17,7 +17,7 @@ body {
   top: 0;
   background-color: #ffffff;
   padding: 10px 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -26,7 +26,7 @@ body {
 .navbar .class-container {
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .brand {
@@ -34,7 +34,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   color: #000;
-  margin-left: 55px;
+  margin-left: 80px;
 }
 
 .navbar-menu {
@@ -67,7 +67,7 @@ body {
   cursor: pointer;
   color: #000;
   margin-left: auto;
-  margin-right: 55px;
+  margin-right: 80px;
 }
 
 /* Profile Section */
@@ -75,15 +75,21 @@ body {
   display: flex;
   width: 100%;
   margin-top: 80px;
+  position: relative;
+  top: 60px;
 }
 
 .wrapper,
 .foto-saia {
   margin: 80px;
   margin-top: 180px;
-  margin-left: 80px;
-  width: 50%;
+  width: 50%; 
 }
+
+.wrapper{
+  margin-left: 100px;
+}
+
 
 .foto-saia,
 .photo {
@@ -96,11 +102,12 @@ body {
 .photo img {
   position: relative;
   left: 60px;
+  bottom: 40px;
   justify-content: flex-end;
-  width: 50%;
-  height: 50%;
+  width: 64%;
+  height: 64%;
 }
-
+                             
 .name {
   display: flex;
   align-items: center;
@@ -125,6 +132,7 @@ h1 span {
 }
 
 .description-name p {
+  width:100%;
   font-size: 1.1em;
   margin-top: 1px;
   font-family: "montserrat", sans-serif;
@@ -133,6 +141,8 @@ h1 span {
 /* About Mme */
 
 .container-about {
+  position: relative;
+  top: 154px;
   background-color: #efefef;
   padding: 20px;
   /* height: 400px;
