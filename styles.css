@@ -10,6 +10,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow:scroll;
 }
 
 /* Navbar Styles */
@@ -34,7 +35,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   color: #000;
-  margin-left: 80px;
+  margin-left: 74px;
 }
 
 .navbar-menu {
@@ -55,11 +56,11 @@ body {
   font-size: 1.1em;
   padding: 10px 15px;
   border-radius: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .navbar-menu li a:hover {
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .dark-mode-toggle {
@@ -67,7 +68,7 @@ body {
   cursor: pointer;
   color: #000;
   margin-left: auto;
-  margin-right: 80px;
+  margin-right: 74px;
 }
 
 /* Profile Section */
@@ -83,13 +84,12 @@ body {
 .foto-saia {
   margin: 80px;
   margin-top: 180px;
-  width: 50%; 
+  width: 50%;
 }
 
-.wrapper{
+.wrapper {
   margin-left: 100px;
 }
-
 
 .foto-saia,
 .photo {
@@ -102,12 +102,12 @@ body {
 .photo img {
   position: relative;
   left: 60px;
-  bottom: 40px;
+  bottom: 38px;
   justify-content: flex-end;
   width: 64%;
   height: 64%;
 }
-                             
+
 .name {
   display: flex;
   align-items: center;
@@ -122,8 +122,10 @@ body {
 
 h1 {
   font-family: "league spartan", sans-serif;
-  font-size: 2.5em;
+  font-size: 3em;
   /* font-weight: 700; */
+  position: relative;
+  top: 0;
   margin: 0;
 }
 
@@ -132,10 +134,13 @@ h1 span {
 }
 
 .description-name p {
-  width:100%;
+  width: 90%;
+  text-justify: auto;
   font-size: 1.1em;
   margin-top: 1px;
   font-family: "montserrat", sans-serif;
+  position: relative;
+  top: 0;
 }
 
 /* About Mme */
@@ -145,9 +150,9 @@ h1 span {
   top: 154px;
   background-color: #efefef;
   padding: 20px;
+  height: 500px;
   /* height: 400px;
   width: 100%; */
-  height: 280px;
 }
 
 /* .title-header-about h3{
@@ -163,7 +168,7 @@ h1 span {
 }
 
 .title-header-about {
-  padding: 12px 0;
+  padding: 30px 0;
 }
 
 .about-me {
@@ -174,6 +179,7 @@ h1 span {
   width: 50%;
   padding: 4px 0;
   line-height: 250%;
+  font-family: 'open sans', sans-serif;
 }
 
 .description-about {
@@ -185,10 +191,11 @@ h1 span {
 /* Tools & Skill */
 
 .judul-keahlian {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 210px;
   margin-bottom: 20px;
 }
 
