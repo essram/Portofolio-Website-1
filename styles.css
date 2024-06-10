@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow:scroll;
+  overflow: scroll;
 }
 
 /* Navbar Styles */
@@ -127,6 +127,7 @@ h1 {
   position: relative;
   top: 0;
   margin: 0;
+  padding-bottom: 10px;
 }
 
 h1 span {
@@ -179,7 +180,7 @@ h1 span {
   width: 50%;
   padding: 4px 0;
   line-height: 250%;
-  font-family: 'open sans', sans-serif;
+  font-family: "open sans", sans-serif;
 }
 
 .description-about {
