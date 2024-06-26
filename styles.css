@@ -169,7 +169,7 @@ h1 span {
 }
 
 .title-header-about h3 {
-  padding: 30px 130px;
+  padding: 30px 70px;
 }
 
 .about-me {
@@ -177,6 +177,7 @@ h1 span {
   width: 100%;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .title-description-about {
@@ -187,8 +188,8 @@ h1 span {
 }
 
 .description-about {
-  width: 30%;
-  font-size: 0.8em;
+  width: 40%;
+  font-size: 0.9em;
   font-family: "mo", sans-serif;
 }
 
@@ -268,26 +269,34 @@ h1 span {
 
 .judul-project h1 {
   padding-left: 0;
-  margin-bottom: 20px; /* Memberikan jarak antara judul dan proyek */
+  margin-bottom: 10px; /* Mengurangi jarak antara judul dan proyek */
+  margin-top: -20px; /* Mengurangi jarak antara judul dan bagian atas */
   color: #333; /* Warna font untuk judul */
 }
 
 .layer-project {
   display: flex;
+  flex-wrap: wrap; /* Menyusun item dalam beberapa baris */
   justify-content: center; /* Memusatkan proyek */
-  gap: 20px; /* Memberikan jarak antar proyek */
+  gap: 30px; /* Memberikan jarak antar proyek */
+  padding-top: 10px;
 }
 
-.layer-project .project-satu,
-.layer-project .project-dua {
+.layer-project > div {
   background-color: #f0f0f0; /* Warna latar belakang untuk proyek */
   padding: 20px;
   border-radius: 10px; /* Sudut membulat */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
   transition: transform 0.3s ease; /* Animasi saat dihover */
+  flex: 1 1 calc(45% - 40px); /* Lebar 45% minus jarak antar item */
+  max-width: calc(45% - 40px); /* Lebar maksimum 45% minus jarak antar item */
 }
 
-.layer-project .project-satu:hover,
-.layer-project .project-dua:hover {
+.layer-project > div:hover {
   transform: translateY(-10px); /* Efek saat dihover */
+}
+
+.layer-project img {
+  width: 100%; /* Pastikan gambar menyesuaikan lebar kontainer */
+  height: auto; /* Mempertahankan rasio aspek gambar */
 }
