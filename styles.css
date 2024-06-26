@@ -168,12 +168,15 @@ h1 span {
   margin: 0 55px;
 }
 
-.title-header-about {
-  padding: 30px 0;
+.title-header-about h3 {
+  padding: 30px 130px;
 }
 
 .about-me {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-description-about {
@@ -184,9 +187,9 @@ h1 span {
 }
 
 .description-about {
-  width: 50%;
+  width: 30%;
   font-size: 0.8em;
-  font-family: "league spartan", sans-serif;
+  font-family: "mo", sans-serif;
 }
 
 /* Tools & Skill */
@@ -249,4 +252,42 @@ h1 span {
 .tools-skills img {
   height: 100px;
   margin: 0 60px;
+}
+
+/* My Project */
+.head-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  height: auto; /* Mengubah height agar mengikuti konten */
+  text-align: center; /* Memusatkan teks dalam judul */
+}
+
+.judul-project h1 {
+  padding-left: 0;
+  margin-bottom: 20px; /* Memberikan jarak antara judul dan proyek */
+  color: #333; /* Warna font untuk judul */
+}
+
+.layer-project {
+  display: flex;
+  justify-content: center; /* Memusatkan proyek */
+  gap: 20px; /* Memberikan jarak antar proyek */
+}
+
+.layer-project .project-satu,
+.layer-project .project-dua {
+  background-color: #f0f0f0; /* Warna latar belakang untuk proyek */
+  padding: 20px;
+  border-radius: 10px; /* Sudut membulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  transition: transform 0.3s ease; /* Animasi saat dihover */
+}
+
+.layer-project .project-satu:hover,
+.layer-project .project-dua:hover {
+  transform: translateY(-10px); /* Efek saat dihover */
 }
