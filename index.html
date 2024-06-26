@@ -1,161 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>gwehj</title>
-  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gwehj</title>
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Font awesome -->
+    <!-- Font awesome -->
 
-  <!-- Google Fonts -->
-  <!-- roboto -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Open sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <!-- Open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Montserrat -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- League Spartan -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <!-- League Spartan -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Dark mode icons -->
-  <link rel="stylesheet" href="https://unpkg.com/css.gg@2.0.0/icons/css/dark-mode.css" />
-</head>
-<body>
-  <!-- Navbar Start -->
-  <nav class="navbar">
-    <div class="class-container">
-      <div class="brand">eyoram</div>
-      <ul class="navbar-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#portofolio">Portofolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="dark-mode-toggle">
-        <i class="gg-dark-mode"></i>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar End -->
-
-  <!-- Profile -->
-  <div id="home" class="container">
-    <div class="wrapper">
-      <div class="name">
-        <h1>Hi, I'm <span>Rama Esa Vahiba</span></h1>
-      </div>
-      <div class="description-name">
-        <p>
-          I am a full-stack developer proficient in both front-end and
-          back-end development. Proficien in HTML, Bootstrap, TailwindCSS,
-          JavaScript, PHP, and PostgreSQL.
-        </p>
-      </div>
-    </div>
-    <div class="foto-saia">
-      <div class="photo">
-        <img src="img/guee.png" alt="photo" />
-      </div>
-    </div>
-  </div>
-  <!-- Profile End -->
-
-  <!-- About Start -->
-  <div class="container-about">
-    <div id="about" class="about">
-      <div class="title-header-about">
-        <h3>About Me Rama</h3>
-      </div>
-      <div class="about-me">
-        <div class="title-description-about">
-          <h1>
-            Short story about <br />
-            me and the beginning of <br />
-            my journey
-          </h1>
+    <!-- Dark mode icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/dark-mode.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <div class="class-container">
+        <div class="brand">eyoram</div>
+        <ul class="navbar-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="dark-mode-toggle">
+          <i class="gg-dark-mode"></i>
         </div>
-        <div class="description-about">
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Profile -->
+    <div id="home" class="container">
+      <div class="wrapper">
+        <div class="name">
+          <h1>Hi, I'm <span>Rama Esa Vahiba</span></h1>
+        </div>
+        <div class="description-name">
           <p>
-            Hai, Kenalin aku Rama Esa Vahiba seorang pelajar dari SMK Telkom
-            Malang, sekarang saya sedang menjalankan pendidikan di jurusan
-            Rekayasa Perangkat Lunak. <br />
-            <br />
-            Aku baru kelas 11, yang dimana aku sedang mengusahakan usahaku
-            menjadi sesorang yang ahli di bidang Front-End, Back-End dan UI/UX
-            <br />
-            <br />
-            Selain itu aku juga hobi mendaki gunung, sekedar menyegarkan
-            pikiran jika jenih di depan komputer, hehe... <br />
-            tapi sepertinya itu bukan hobi, melainkan karena sesuatu yang
-            buruk telah terjadi kepada saya
+            I am a full-stack developer proficient in both front-end and
+            back-end development. Proficien in HTML, Bootstrap, TailwindCSS,
+            JavaScript, PHP, and PostgreSQL.
           </p>
         </div>
       </div>
+      <div class="foto-saia">
+        <div class="photo">
+          <img src="img/guee.png" alt="photo" />
+        </div>
+      </div>
     </div>
-  </div>
+    <!-- Profile End -->
 
-  <!-- About End  -->
+    <!-- About Start -->
+    <div class="container-about">
+      <div id="about" class="about">
+        <div class="title-header-about">
+          <h3>About Me Rama</h3>
+        </div>
+        <div class="about-me">
+          <div class="title-description-about">
+            <h1>
+              Short story about <br />
+              me and the beginning of <br />
+              my journey
+            </h1>
+          </div>
+          <div class="description-about">
+            <p>
+              Hai, Kenalin aku Rama Esa Vahiba seorang pelajar dari SMK Telkom
+              Malang, sekarang saya sedang menjalankan pendidikan di jurusan
+              Rekayasa Perangkat Lunak. <br />
+              <br />
+              Aku baru kelas 11, yang dimana aku sedang mengusahakan usahaku
+              menjadi sesorang yang ahli di bidang Front-End, Back-End dan UI/UX
+              <br />
+              <br />
+              Selain itu aku juga hobi mendaki gunung, sekedar menyegarkan
+              pikiran jika jenih di depan komputer, hehe... <br />
+              tapi sepertinya itu bukan hobi, melainkan karena sesuatu yang
+              buruk telah terjadi kepada saya
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- Tools And Skill Start -->
-  <div class="tool-skill">
-    <div class="judul-keahlian">
-      <h1>Tools And Skill</h1>
-    </div>
-    <div class="container-tools-skills">
-      <div class="tools-skills">
-        <img src="img/bootstrap.svg" alt="" />
-        <img src="img/figma.svg" alt="" />
-        <img src="img/java.svg" alt="" />
-        <img src="img/js.svg" alt="" />
-        <img src="img/bootstrap.svg" alt="" />
-        <img src="img/figma.svg" alt="" />
-        <img src="img/java.svg" alt="" />
-        <img src="img/js.svg" alt="" />
-      </div>
-    </div>
-  </div>
+    <!-- About End  -->
 
-  <!-- Project -->
-  <div class="head-project">
-    <div class="judul-project">
-      <h1>My Project</h1>
-    </div>
-    <div class="layer-project">
-      <div class="project-satu">
-        <img src="img/Frame 2.png" alt="" />
+    <!-- Tools And Skill Start -->
+    <div class="tool-skill">
+      <div class="judul-keahlian">
+        <h1>Tools And Skill</h1>
       </div>
-      <div class="project-dua">
-        <img src="img/UI Design Social Media Professional Mockup Promotion 3D (2).png" alt="" />
-      </div>
-      <div class="project-tiga">
-        <img src="img/Page 1.png" alt="" />
-      </div>
-      <div class="project-empat">
-        <img src="img/UI Design Social Media Professional Mockup Promotion 3D (2).png" alt="" />
-      </div>
-      <div class="project-lima">
-        <img src="img/Page 1.png" alt="" />
-      </div>
-      <div class="project-enam">
-        <img src="img/Frame 2.png" alt="" />
+      <div class="container-tools-skills">
+        <div class="tools-skills">
+          <img src="img/bootstrap.svg" alt="" />
+          <img src="img/figma.svg" alt="" />
+          <img src="img/java.svg" alt="" />
+          <img src="img/js.svg" alt="" />
+          <img src="img/bootstrap.svg" alt="" />
+          <img src="img/figma.svg" alt="" />
+          <img src="img/java.svg" alt="" />
+          <img src="img/js.svg" alt="" />
+        </div>
       </div>
     </div>
-  </div>
-  <script src="script.js"></script>
-</body>
+
+    <!-- Project -->
+    <div class="head-project">
+      <div class="judul-project">
+        <h1>My Project</h1>
+      </div>
+      <div class="layer-project">
+        <div class="project-satu">
+          <img src="img/Frame 2.png" alt="" />
+        </div>
+        <div class="project-dua">
+          <img
+            src="img/UI Design Social Media Professional Mockup Promotion 3D (2).png"
+            alt=""
+          />
+        </div>
+        <div class="project-tiga">
+          <img src="img/Page 1.png" alt="" />
+        </div>
+        <div class="project-empat">
+          <img
+            src="img/UI Design Social Media Professional Mockup Promotion 3D (2).png"
+            alt=""
+          />
+        </div>
+        <div class="project-lima">
+          <img src="img/Page 1.png" alt="" />
+        </div>
+        <div class="project-enam">
+          <img src="img/Frame 2.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- My Portfolio -->
+
+    <!-- My Portfolio -->
+    <div class="head-portfolio">
+      <div class="judul-portfolio">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="layer-portfolio">
+        <div class="portfolio-item">
+          <img
+            src="img/sertifikat_course_315_3277463_180624114637_page-0001.jpg"
+            alt="Portfolio 1"
+          />
+        </div>
+        <div class="portfolio-item">
+          <img
+            src="img/sertifikat_course_123_3277463_200524162658_page-0001.jpg"
+            alt="Portfolio 2"
+          />
+        </div>
+        <div class="portfolio-item">
+          <img
+            src="img/sertifikat_course_315_3277463_180624114637_page-0001.jpg"
+            alt="Portfolio 3"
+          />
+        </div>
+        <div class="portfolio-item">
+          <img
+            src="img/sertifikat_course_315_3277463_180624114637_page-0001.jpg"
+            alt="Portfolio 4"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
