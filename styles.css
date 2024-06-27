@@ -370,3 +370,17 @@ h1 span {
   width: 100%;
   height: auto;
 }
+
+/* Contact */
+.container-contact {
+  display: flex;
+}
+
+.judul-contact {
+  display: flex;
+  margin: 60px 92px;
+}
+
+.judul-contact h1 {
+  font-size: 2.5em;
+}
